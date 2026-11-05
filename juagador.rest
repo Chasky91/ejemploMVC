@@ -1,0 +1,16 @@
+### Crear Usuario
+POST http://localhost:5000/usuario/nuevo
+Content-Type: application/json
+
+{
+	"username": "desde_local21",
+	"email": "local2d@gmail.com",
+	"password": "online23",
+	"fehca_nac": "2004-05-11",
+    "pais": "ARG"
+}
+
+
+###
+GET http://localhost:5000/usuario/todos
+
